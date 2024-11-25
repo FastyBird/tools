@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace FastyBird\Library\Tools\Tests\Cases\Unit\Transformers;
+namespace FastyBird\Core\Tools\Tests\Cases\Unit\Transformers;
 
-use FastyBird\Library\Tools\Exceptions;
-use FastyBird\Library\Tools\Transformers;
+use FastyBird\Core\Tools\Exceptions;
+use FastyBird\Core\Tools\Transformers;
 use PHPUnit\Framework\TestCase;
 use function strval;
 

@@ -5,4 +5,4 @@ Thank you for testing, reporting and contributing.
 
 ***
 Homepage [https://www.fastybird.com](https://www.fastybird.com) and
-repository [https://github.com/fastybird/tools-library](https://github.com/fastybird/tools-library).
+repository [https://github.com/fastybird/tools](https://github.com/fastybird/tools).

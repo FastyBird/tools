@@ -17,8 +17,8 @@
     <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
         <properties>
             <property name="rootNamespaces" type="array">
-                <element key="src" value="FastyBird\Library\Tools"/>
-                <element key="tests/cases/unit" value="FastyBird\Library\Tools\Tests\Cases\Unit"/>
+                <element key="src" value="FastyBird\Core\Tools"/>
+                <element key="tests/cases/unit" value="FastyBird\Core\Tools\Tests\Cases\Unit"/>
             </property>
         </properties>
     </rule>

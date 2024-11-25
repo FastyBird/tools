@@ -6,18 +6,18 @@
  * @license        More in LICENSE.md
  * @copyright      https://www.fastybird.com
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
- * @package        FastyBird:ToolsLibrary!
+ * @package        FastyBird:Tools!
  * @subpackage     Transformers
  * @since          1.0.0
  *
  * @date           26.04.23
  */
 
-namespace FastyBird\Library\Tools\Transformers;
+namespace FastyBird\Core\Tools\Transformers;
 
+use FastyBird\Core\Tools\Exceptions;
 use FastyBird\Library\Metadata;
 use FastyBird\Library\Metadata\Types as MetadataTypes;
-use FastyBird\Library\Tools\Exceptions;
 use MathSolver\Math;
 use function array_key_exists;
 use function floatval;
@@ -30,7 +30,7 @@ use function round;
 /**
  * Equation value transformer
  *
- * @package        FastyBird:ToolsLibrary!
+ * @package        FastyBird:Tools!
  * @subpackage     Transformers
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>

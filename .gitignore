@@ -1,5 +1,14 @@
 .idea
+/dist
+/node_modules
 /vendor
 /var
-composer.lock
+.editorconfig
 .DS_Store
+.gitattributes
+.gitignore
+.npmignore
+composer.lock
+yarn.lock
+tsconfig.tsbuildinfo
+Makefile

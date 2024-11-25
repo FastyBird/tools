@@ -6,26 +6,26 @@
  * @license        More in LICENSE.md
  * @copyright      https://www.fastybird.com
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
- * @package        FastyBird:ToolsLibrary!
+ * @package        FastyBird:Tools!
  * @subpackage     Transformers
  * @since          1.0.0
  *
  * @date           17.01.24
  */
 
-namespace FastyBird\Library\Tools\Transformers;
+namespace FastyBird\Core\Tools\Transformers;
 
 use Contributte\Monolog;
 use DateTimeInterface;
+use FastyBird\Core\Tools\Utilities as ToolsUtilities;
 use FastyBird\Library\Metadata\Types as MetadataTypes;
-use FastyBird\Library\Metadata\Utilities as MetadataUtilities;
 use function boolval;
 use function in_array;
 
 /**
  * Compatible data type value transformer
  *
- * @package        FastyBird:ToolsLibrary!
+ * @package        FastyBird:Tools!
  * @subpackage     Transformers
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
@@ -129,7 +129,7 @@ final readonly class DataTypeTransformer
 				'type' => 'data-type-transformer',
 				'source_data_type' => $this->source,
 				'destination_data_type' => $this->destination,
-				'value' => MetadataUtilities\Value::flattenValue($this->value),
+				'value' => ToolsUtilities\Value::flattenValue($this->value),
 			],
 		);
 
